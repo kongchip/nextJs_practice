@@ -21,3 +21,14 @@ body {
   color: grey;
   margin: 5px 0px;
 }
+.main-page {
+  height: 100vh;
+  background-color: #01579b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choice-btn {
+  margin-right: 20px;
+  height: 30px;
+}

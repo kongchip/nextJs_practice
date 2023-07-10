@@ -3,8 +3,8 @@ import { ObjectId } from 'mongodb';
 
 export default async function Detail(props) {
   const db = (await connectDB).db('forum');
-  let result = await db.collection('post').findOne({ _id: new ObjectId('649dacf16ca45536c50c75ae') });
-  console.log(result);
+  let result = await db.collection('post').findOne({ _id: new ObjectId(props.params.id) });
+  // console.log(props.params.id);
   return (
     <div>
       <h4>상세페이지</h4>
