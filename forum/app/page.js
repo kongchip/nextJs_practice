@@ -16,8 +16,8 @@ export default async function Home() {
       <Link href={'/api/data'}>
         <button className="choice-btn">현재시간 확인하기</button>
       </Link>
-      <Link href={'/write'}>
-        <button className="choice-btn">게시글 작성하기</button>
+      <Link href={'/list'}>
+        <button className="choice-btn">게시글 보러가기</button>
       </Link>
     </div>
   );

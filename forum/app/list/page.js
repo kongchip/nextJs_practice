@@ -15,6 +15,9 @@ export default async function List() {
           <p>{result[i].content}</p>
         </div>
       ))}
+      <Link href={'/write'}>
+        <button className="choice-btn">글작성</button>
+      </Link>
     </div>
   );
 }

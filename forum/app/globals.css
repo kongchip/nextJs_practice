@@ -32,3 +32,51 @@ body {
   margin-right: 20px;
   height: 30px;
 }
+
+.write-container {
+  height: 300px;
+  width: 200px;
+  margin-left: 20%;
+}
+
+.write-title {
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+
+.write-content {
+  height: 300px;
+  width: 700px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+
+.postBtn {
+  height: 30px;
+  width: 80px;
+  background-color: rgb(7, 81, 56);
+  border: 0px;
+  border-radius: 10%;
+  color: white;
+  margin-right: 10px;
+}
+
+.backBtn {
+  height: 30px;
+  width: 80px;
+  background-color: rgb(88, 88, 88);
+  border: 0px;
+  border-radius: 10%;
+  color: white;
+}
+
+.write-page {
+  text-align: center;
+  font-size: 30px;
+}
