@@ -8,7 +8,7 @@ export default function Write() {
   return (
     <div>
       <h4 className="write-page">글 작성하기</h4>
-      <form action="/api/post" method="POST" className="write-container">
+      <form action="/api/post/new" method="POST" className="write-container">
         <div>글 제목</div>
         <input className="write-title" name="title" type="text" placeholder="제목을 작성해 주세요" />
         <div>글 내용</div>

@@ -46,6 +46,7 @@ body {
   margin-bottom: 10px;
   border-radius: 15px;
   border: 1px solid gray;
+  padding-left: 10px;
 }
 
 .write-content {
@@ -55,6 +56,7 @@ body {
   margin-bottom: 10px;
   border-radius: 15px;
   border: 1px solid gray;
+  padding-left: 10px;
 }
 
 .postBtn {
@@ -79,4 +81,9 @@ body {
 .write-page {
   text-align: center;
   font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
