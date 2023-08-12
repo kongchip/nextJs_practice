@@ -16,10 +16,15 @@ export default async function ListItem({ result }) {
               fetch('/api/post/delete', { method: 'POST', body: result[i]._id })
                 .then((r) => r.json())
                 .then((r) => {
-                  e.target.parentElement.style.opacity = 0;
-                  setTimeout(() => {
-                    e.target.parentElement.style.display = 'none';
-                  }, 1000);
+                  console.log(r);
+                  if (r === '삭제완료') {
+                    e.target.parentElement.style.opacity = 0;
+                    setTimeout(() => {
+                      e.target.parentElement.style.display = 'none';
+                    }, 1000);
+                  } else {
+                    alert('내가 작성한 글이 아님');
+                  }
                 });
             }}
           >
