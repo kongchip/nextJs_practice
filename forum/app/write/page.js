@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 
 export default function Write() {
   let router = useRouter();
+
   return (
     <div>
       <h4 className="write-page">글 작성하기</h4>
