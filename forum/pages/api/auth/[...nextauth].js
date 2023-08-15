@@ -61,7 +61,7 @@ export const authOptions = {
     },
   },
 
-  secret: 'githubkongchip',
+  secret: process.env.NEXTAUTH_SECRET,
   adapter: MongoDBAdapter(connectDB),
 };
 export default NextAuth(authOptions);
