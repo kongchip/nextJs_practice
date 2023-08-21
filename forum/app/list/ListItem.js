@@ -16,7 +16,6 @@ export default async function ListItem({ result }) {
               fetch('/api/post/delete', { method: 'POST', body: result[i]._id })
                 .then((r) => r.json())
                 .then((r) => {
-                  console.log(r);
                   if (r === '삭제완료') {
                     e.target.parentElement.style.opacity = 0;
                     setTimeout(() => {
