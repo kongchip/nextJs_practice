@@ -10,7 +10,7 @@ export default async function ListItem({ result }) {
           <Link href={`/detail/${result[i]._id}`}>
             <h4>{result[i].title}</h4>
           </Link>
-          <Link href={'/edit/' + result[i]._id}> ✏️</Link>
+          <Link href={'/edit/' + result[i]._id}>✏️</Link>
           <span
             onClick={(e) => {
               fetch('/api/post/delete', { method: 'POST', body: result[i]._id })
