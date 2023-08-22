@@ -25,8 +25,8 @@ export default async function RootLayout({ children }) {
           </Link>
           <Link href="/list">List</Link>
           {session ? (
-            <span>
-              {session.user.name}
+            <span className="name-UI">
+              {session.user.name + ' 님 어서오세요'}
               <LogoutBtn />
             </span>
           ) : (

@@ -33,7 +33,7 @@ export default async function ListItem({ result }) {
         </div>
       ))}
       <Link href={'/write'}>
-        <button className="choice-btn">글작성</button>
+        <button className="new-btn">글작성</button>
       </Link>
     </div>
   );
