@@ -14,19 +14,20 @@ export default function Comment(props) {
       });
   }, [data]);
   return (
-    <div>
-      <div>댓글목록 보여줄 부분</div>
+    <div className="comment-container">
+      <div className="comment">💬 댓글</div>
       {data.length > 0
         ? data.map((a, i) => {
             return (
-              <div key={i}>
-                <p>{a.name}</p>
+              <div className="comment-list" key={i}>
+                <p className="comment-name">{a.name}</p>
                 <p>{a.content}</p>
               </div>
             );
           })
         : '댓글 없음'}
       <input
+        placeholder="댓글을 작성해 주세요"
         onChange={(e) => {
           setComment(e.target.value);
         }}
@@ -39,7 +40,7 @@ export default function Comment(props) {
           });
         }}
       >
-        댓글전송
+        등록
       </button>
     </div>
   );

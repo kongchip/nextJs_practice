@@ -63,6 +63,7 @@ body {
   border-radius: 15px;
   border: 1px solid gray;
   padding-left: 10px;
+  padding-top: 10px;
 }
 
 .postBtn {
@@ -132,4 +133,29 @@ a {
   font-size: 20px;
   border-radius: 10px;
   border: 2px dotted gray;
+}
+.detail-container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.detail-page {
+  color: #5d5d5d;
+  margin-left: 20px;
+}
+.detail-title {
+  color: #a52a2a;
+  margin-bottom: 100px;
+}
+.comment-container {
+}
+.comment {
+  padding-top: 30px;
+}
+
+.comment-list {
+  border-top: 1px solid;
+}
+
+.comment-name {
+  font-weight: bold;
 }

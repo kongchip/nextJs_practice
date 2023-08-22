@@ -13,7 +13,7 @@ export default function Write() {
         <div>글 제목</div>
         <input className="write-title" name="title" type="text" placeholder="제목을 작성해 주세요" />
         <div>글 내용</div>
-        <input className="write-content" name="content" type="text" placeholder="" />
+        <textarea className="write-content" name="content" type="text" placeholder="내용을 입력하세요" />
         <button className="postBtn" type="submit">
           글작성
         </button>
