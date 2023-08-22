@@ -159,3 +159,15 @@ a {
 .comment-name {
   font-weight: bold;
 }
+
+.dark-mode .navbar {
+  background: #222;
+}
+
+.dark-mode .navbar a {
+  color: white;
+}
+
+.dark-mode .navbar span {
+  color: white;
+}
